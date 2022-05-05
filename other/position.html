@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>position</title>
+  <style media="screen">
+  body {
+    height 100%;
+  }
+    .thumbsBox {
+      text-align: center;
+
+      width: 50%;
+      height: 50%;
+    }
+
+    .pTop {
+      border: 1px solid black;
+      position: Absolute;
+      top: 0px;id=""
+    }
+
+    .pBot {
+      border: 1px solid black;
+      position: Absolute;
+      Bottom: 0px;
+    }
+
+    .pLeft {
+      border: 1px solid black;
+      position: Absolute;
+      left: 0px;
+    }
+
+    .pRight {
+      border: 1px solid black;
+      position: Absolute;
+      right: 0px;
+    }
+    #tUp {
+      background-color: #006400
+
+    }
+    #tDown {
+      background-color: #8B0000
+    }
+    #tWiggle {
+      background-color: #00CED1
+    }
+    #tOops {
+      background-color: #FFD700
+    }
+    #tUp:hover {
+      background-color: #ffffff
+    }
+    #tDown:hover {
+      background-color: #ffffff
+    }
+    #tWiggle:hover {
+      background-color: #ffffff
+    }
+    #tOops:hover {
+      background-color: #ffffff
+    }
+  </style>
+</head>
+
+<body>
+  <div id="tUp" class="thumbsBox pTop pLeft">
+    Up
+
+  </div>
+
+  <div id="tWiggle" class="thumbsBox pTop pRight">
+    Wiggle
+  </div>
+
+  <div id="tDown" class="thumbsBox pBot pLeft">
+    Down
+  </div>
+
+  <div id="tOops" class="thumbsBox pBot pRight">
+    Oops
+  </div>
+</body>
+
+</html>
