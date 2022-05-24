@@ -83,6 +83,9 @@ div {
   Display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  box-shadow: 5px 10px #1114ed
-
+  box-shadow: 5px 10px #1114ed;
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
 }
