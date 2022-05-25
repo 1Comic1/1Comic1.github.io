@@ -1,0 +1,99 @@
+body {
+  height 100%;
+}
+
+.thumbsBox {
+  text-align: center;
+
+  width: 50%;
+  height: 50%;
+}
+
+.pTop {
+  border: 1px solid black;
+  position: Absolute;
+  top: 0px;
+  id=""
+}
+
+.pBot {
+  border: 1px solid black;
+  position: Absolute;
+  Bottom: 0px;
+}
+
+.pLeft {
+  border: 1px solid black;
+  position: Absolute;
+  left: 0px;
+}
+
+.pRight {
+  border: 1px solid black;
+  position: Absolute;
+  right: 0px;
+}
+
+#tUp {
+  background-color: #006400
+}
+
+#tDown {
+  background-color: #8B0000
+}
+
+#tWiggle {
+  background-color: #00CED1
+}
+
+#tOops {
+  background-color: #FFD700
+}
+
+#tUp:hover {
+  background-color: #ffffff
+}
+
+#tDown:hover {
+  background-color: #ffffff
+}
+
+#tWiggle:hover {
+  background-color: #ffffff
+}
+
+#tOops:hover {
+  background-color: #ffffff
+}
+div {
+  background-color: white;
+  border: 1px solid black;
+}
+
+#content {
+  border: 3px solid black;
+}
+
+#headerBox {
+  color: purple;
+  background-color: blue;
+  margin: 20px;
+}
+#navBox {
+  Display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  box-shadow: 5px 10px #1114ed;
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+}
+
+#car {
+  float: inherit
+}
+
+p {
+  box-shadow:2px 2px black;
+}
